@@ -16,15 +16,15 @@ public class Project1 {
 //			System.out.println("Hey John");
 //		}	else System.out.println("Nice try buddy");
 	
-		
+		//introduction to loops
 		int i = 0;								//intitialization 
 		
 		do {
 			System.out.println("i is: " + i);
 			i++;
-		} while(false);
+		} while(false);							//condition is false so loop ends here
 		
-		//introduction to loops
+		
 //		while(i < 10) {							//condition
 //			System.out.println("i is: " + i);
 //			i++;								//update
