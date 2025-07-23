@@ -42,6 +42,44 @@ public class Project1 {
 //		System.out.println(s);				//output the input from line 10
 //		System.out.println(a);
 //		System.out.println(b);
+		
 	}
 
 }
+
+
+package loginTest;
+
+import java.util.Scanner;
+
+public class LoginTest {
+
+    public static void main(String[] args) {
+        // Fixed value for username and password
+        String user = "Michael";
+        String pass = "Password"; 
+        
+        Scanner in = new Scanner(System.in);  // Input from the user
+
+        // Ask for username
+        System.out.print("Username: ");
+        String Username = in.nextLine();  // Entered by user
+
+        // Ask for password
+        System.out.print("Password: ");
+        String Password = in.nextLine();  // Entered by user
+
+        // Check if entered username and password match the stored values
+        if (Username.equals(user) && Password.equals(pass)) {
+            System.out.println("Access Granted");
+        } else {
+            System.out.println("THINK AGAIN");
+        }
+
+        in.close();
+    }
+}
+
+
+
+
