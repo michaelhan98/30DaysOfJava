@@ -50,6 +50,8 @@ public class Project1 {
 }
 
 
+// this is a test about a simple log in functionality 
+
 //package loginTest;
 //
 //import java.util.Scanner;
